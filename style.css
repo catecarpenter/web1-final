@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700&display=swap");
+/*<a href="https://imgur.com/iMvqVJd"><img src="https://i.imgur.com/iMvqVJd.jpg" title="source: imgur.com" alt="pic of me" /></a>*/
+
+body {
+  background-color: #848484;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+  font-family: "Overpass", serif;
+  font-weight: 700;
+  font-size: 8em;
+  color: #9881c9;
+  text-align: center;
+  line-height: 150px;
+  position: relative;
+  bottom: -250px;
+  vertical-align: bottom;
+}
+
+h2 {
+  font-family: "Overpass", serif;
+  font-weight: 700;
+  font-size: 6em;
+  color: #ffffff;
+  margin: 30px 20px;
+}
+h3 {
+  font-family: "Overpass", serif;
+  font-weight: 300;
+  font-size: 3em;
+  color: #c9ff85;
+}
+
+img { max-width: 100%; height: auto; }
+
+info {
+  font-family: "Overpass", serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: black;
+  transition-duration: 1ms;
+  transition-property: width;
+  transition-delay: 0s;
+}
+h4 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Overpass", serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: black;
+  transition-duration: 1ms;
+  transition-property: width;
+  transition-delay: 0s;
+}
+h4:hover {
+  color: #c9ff85;
+}
+h5 {
+  font-family: "Overpass", serif;
+  font-weight: 400;
+  font-size: 3em;
+  color: #c9ff85;
+  margin: 20px;
+}
+h6 {
+  font-family: "Overpass", serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  color: white;
+  margin: 80px 20px;
+ 
+}
+.subtitle {
+  font-family: "Overpass", serif;
+  font-weight: 400;
+  font-size: 4px;
+  color: Black;
+  text-align: center;
+  line-height: 400px;
+  position: relative;
+  vertical-align: bottom;
+  margin-left: -710px;
+}
+header {
+  background-image: url("https://i.imgur.com/iMvqVJd.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: 
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.example {
+  width: 80%;
+  margin: 120px auto;
+  display: block;
+}
+.radish {
+  width: 80%;
+  margin: 400px 100px;
+  display: block;
+  padding: 20px;
+}
+.corn {
+  width: 80%;
+  margin: 400px 200px;
+  display: block;
+  padding: 20px;
+}
+
+.logo {
+  height: 200px;
+  width: auto;
+  align-self: flex-end;
+}
+.gut {
+  height: auto;
+  width: 100%;
+  margin: 120px 275px;
+  display: flex;
+  align-self: flex-center;
+}
+
+a {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Overpass", serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  
+}
+a:hover {
+  color: #c9ff85;
+  text-decoration: none;
+}
+#contact {
+  font-family: "Overpass", serif;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-align: center; 
+}
+
+footer {
+  padding: 20px;
+  background-color: #9881c9;
+  display: flex;
+  Justify-content: center;
+  height: 4em;
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
